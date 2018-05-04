@@ -1,0 +1,144 @@
+body {
+  font-family: "Amble", Arial, sans-serif;
+  letter-spacing: .5px;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+article {
+  color: grey;
+  text-align: center;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+/* floated menu bar -------------------- */
+
+#logo {
+  color: grey;
+  float: left;
+  padding-left: 35px;
+  text-decoration: none;
+}
+
+.menu {
+  float: right;
+  padding-top: 15px;
+}
+
+.group-menu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* section styles------------- */
+
+.featured-header {
+  text-decoration: underline;
+}
+
+.featured {
+  background: grey url('../img/wall.jpg') no-repeat top/cover;
+  max-width: 100%;
+  text-align: center;
+  padding: 200px;
+  color: white;
+  font-size: 1.6em;
+  text-shadow: 2px 2px 4px black;
+}
+
+.intro-content {
+  text-align: center;
+  color: grey;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.bottom-content {
+  text-align: center;
+  color: grey;
+  padding: 100px 0;
+  margin-top: 50px;
+  border-bottom: solid 5px #ffa949;
+}
+
+.more {
+  background-color: grey;
+  max-width: 2%;
+  padding: 10px;
+  border-radius: 7px;
+  font-size: .9em;
+}
+
+.group p {
+  padding-bottom: 20px;
+}
+
+.group {
+  margin: auto;
+  text-align: center;
+}
+
+/* content section -------------- */
+
+.article1,
+.article2,
+.article3,
+.article4 {
+  width: 22%;
+  font-size: 1em;
+  background-color: rgba(255, 238, 173, .15);
+  border-right: solid #e1e1e1 1px;
+  display: inline-block;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.article4 {
+  border-right: none;
+}
+
+/* link styles--------------- */
+
+a:link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:active {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:visited {
+  color: grey;
+}
+
+.menu a:link {
+  color: grey;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+
+.menu a:hover {
+  color: orange;
+}
+
+/* web fontssss <3 -------------------- */
+
+@font-face {
+  font-family: 'Amble';
+  src: url(../font/Amble-Regular-webfont.woff);
+}
